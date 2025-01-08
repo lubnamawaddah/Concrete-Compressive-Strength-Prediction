@@ -312,15 +312,12 @@ During the evaluation phase, various metrics were used to measure the performanc
 MAE measures the average absolute difference between the predicted values and the actual values. The lower the MAE value, the better the model is at making accurate predictions.
 
 **Formula :**
-$$
-MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
-$$
+$`MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|`$  
 
-Where:
-- \( y_i \) is the actual value
-- \( \hat{y}_i \) is the predicted value
-- \( n \) is the number of data points
-
+Where:  
+- $`y_i`$ is the actual value  
+- $`\hat{y}_i`$ is the predicted value  
+- $`n`$ is the number of data points  
 
 ---
 
