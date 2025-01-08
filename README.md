@@ -329,12 +329,12 @@ MSE measures the average squared difference between the predicted values and the
 
 **Formula :**
 
-\[ MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i| \]  
+$`MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|`$  
 
 Where:  
-- $y_i$ is the actual value  
-- $\hat{y}_i$ is the predicted value  
-- $n$ is the number of data points 
+- $`y_i`$ is the actual value  
+- $`\hat{y}_i`$ is the predicted value  
+- $`n`$ is the number of data points 
 
 ---
 
@@ -344,13 +344,13 @@ Where:
 RMSE is the square root of MSE and measures the prediction error in the same units as the original data. RMSE provides a clearer picture of both large and small model errors.
 
 **Formula :**
-$$
-RMSE = \sqrt{MSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}
-$$
-Where :
-- $ y_i $ is the actual value
-- $ \hat{y}_i $ is the predicted value
-- $ n $ is the number of data points
+
+$`RMSE = \sqrt{MSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}`$
+
+Where:  
+- $`y_i`$ is the actual value  
+- $`\hat{y}_i`$ is the predicted value  
+- $`n`$ is the number of data points 
 
 ---
 
@@ -360,14 +360,14 @@ Where :
 R² measures the proportion of variation in the data that can be explained by the model. The R² value ranges from 0 to 1, where 1 indicates that the model explains all the variation in the data, and 0 indicates that the model performs no better than the mean model.
 
 **Formula :**
-$$
-R^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2}
-$$
+
+$`R^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2}`$
+
 Where :
-- $ y_i $ is the actual value
-- $ \hat{y}_i $ is the predicted value
-- $ \bar{y} $ is the mean of the actual data
-- $ n $ is the number of data points
+- $`y_i`$ is the actual value  
+- $`\hat{y}_i`$ is the predicted value 
+- $`\bar{y}`$ is the mean of the actual data
+- $`n`$ is the number of data points
 
 ---
 
@@ -377,13 +377,13 @@ Where :
 MAPE measures the average percentage error between the predicted values and the actual values. MAPE is easier to interpret as it presents the error in percentage terms. The lower the MAPE value, the better the model is at predicting the actual values.
 
 **Formula :**
-$$
-MAPE = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{y_i - \hat{y}_i}{y_i} \right| \times 100
-$$
+
+$`MAPE = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{y_i - \hat{y}_i}{y_i} \right| \times 100`$
+
 Where :
-- $ y_i $ is the actual value
-- $ \hat{y}_i $ is the predicted value
-- $ n $ is the number of data points
+- $`y_i`$ is the actual value  
+- $`\hat{y}_i`$ is the predicted value  
+- $`n`$ is the number of data points 
 
 ---
 
