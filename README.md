@@ -113,16 +113,24 @@ It was found that the data contained outliers, these outliers need to be removed
   ![distribution_feature](https://github.com/user-attachments/assets/412b68d5-2739-4268-913c-dec246fbb583)
 
   Insight:
-**- Cement :** The distribution shows a right-skewed pattern, indicating that most samples have lower cement content, with fewer samples having higher values.
+**- Cement :** The distribution shows a right-skewed pattern, indicating that most samples have lower cement content, with fewer samples having higher values.  
 
-**- Blast Furnace Slag :** The distribution is heavily right-skewed, with most samples showing very low usage, confirming that it is less common in the mix.
-**- Fly Ash :** Similar to Blast Furnace Slag, the distribution is right-skewed, indicating low usage across samples, reinforcing its rarity in the concrete mix.
-**- Water :** The distribution is relatively uniform, peaking around 180-200, suggesting a balanced and consistent application of water in the samples.
-**- Superplasticizer :** The distribution shows that primarily low amounts are used, with a significant number of samples having very little to none, indicating sparing application.
-**- Coarse Aggregate :** The distribution appears normal, with a peak around 950-1000, indicating a typical range of usage for coarse aggregates in the samples.
-**- Fine Aggregate :** This distribution is also normal, peaking around 750-800, suggesting a consistent application of fine aggregates.
-**- Age :** The distribution is right-skewed, indicating that most samples are relatively recent, falling within the 0-40 days range.
+**- Blast Furnace Slag :** The distribution is heavily right-skewed, with most samples showing very low usage, confirming that it is less common in the mix.  
+
+**- Fly Ash :** Similar to Blast Furnace Slag, the distribution is right-skewed, indicating low usage across samples, reinforcing its rarity in the concrete mix.  
+
+**- Water :** The distribution is relatively uniform, peaking around 180-200, suggesting a balanced and consistent application of water in the samples.  
+
+**- Superplasticizer :** The distribution shows that primarily low amounts are used, with a significant number of samples having very little to none, indicating sparing application.  
+
+**- Coarse Aggregate :** The distribution appears normal, with a peak around 950-1000, indicating a typical range of usage for coarse aggregates in the samples.  
+
+**- Fine Aggregate :** This distribution is also normal, peaking around 750-800, suggesting a consistent application of fine aggregates.  
+
+**- Age :** The distribution is right-skewed, indicating that most samples are relatively recent, falling within the 0-40 days range.  
+
 **- Concrete Compressive Strength :** The distribution shows that most samples fall within the 30-40 MPa range, indicating typical strength levels for the concrete.
+
 ---
 
 - **Correlation Heatmap**
