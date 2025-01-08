@@ -114,6 +114,7 @@ It was found that the data contained outliers, these outliers need to be removed
 
   Insight:
 **- Cement :** The distribution shows a right-skewed pattern, indicating that most samples have lower cement content, with fewer samples having higher values.
+
 **- Blast Furnace Slag :** The distribution is heavily right-skewed, with most samples showing very low usage, confirming that it is less common in the mix.
 **- Fly Ash :** Similar to Blast Furnace Slag, the distribution is right-skewed, indicating low usage across samples, reinforcing its rarity in the concrete mix.
 **- Water :** The distribution is relatively uniform, peaking around 180-200, suggesting a balanced and consistent application of water in the samples.
