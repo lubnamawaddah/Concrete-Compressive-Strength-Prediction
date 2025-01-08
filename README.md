@@ -14,18 +14,6 @@ In recent years, machine learning (ML), a branch of artificial intelligence (AI)
 
 In this project, concrete strength was predicted using Linear Regression, Random Forest, Gradient Boosting Regressor, and Support Vector Regressor to identify the most effective model. The performance of each model was evaluated using multiple metrics, including Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), Coefficient of Determination (R²), and Mean Absolute Percentage Error (MAPE). These metrics were used to comprehensively assess the accuracy and reliability of the models.
 
----
-
-**Reference :**
-
-[1] Hoang Nguyen et al., ["Efficient machine learning models for prediction of concrete strengths"](https://www.sciencedirect.com/science/article/pii/S095006182032955X) Construction and Building Materials, Vol. 266, Part B, 2021.
-
-[2] De-Cheng Feng et al., ["Machine learning-based compressive strength prediction for concrete: An adaptive boosting approach"](https://www.sciencedirect.com/science/article/pii/S0950061819324420) Construction and Building Materials, Vol. 230, 2020.
-
-[3] Kadir Güçlüer et al., ["A comparative investigation using machine learning methods for concrete compressive strength estimation"](https://www.sciencedirect.com/science/article/pii/S2352492821002701) Materials Today Communications, Vol. 27, 2021.
-
-[4] Hadi Salehi et al., ["Emerging artificial intelligence methods in structural engineering"](https://www.sciencedirect.com/science/article/pii/S0141029617335526) Engineering Structures, Vol. 171, 2018.
-
 <div align="center">  
   <h2>Business Understanding</h2>
 </div>
@@ -499,3 +487,15 @@ The performance of the four regression models: **Linear Regression, Random Fores
 - **Support Vector Regressor** had the lowest performance among the models, with an R² score of 0.73, explaining only 73% of the variance. Its error metrics were higher, with an MAE of 6.62, MSE of 71.58, and RMSE of 8.46, indicating a greater degree of error in predictions. The MAPE of 30.42% reflects a significant average error in its predictions.
 
 In conclusion, **Random Forest** performed the best in terms of both accuracy and error metrics, followed closely by **Gradient Boosting Regressor**. **Linear Regression** showed moderate performance, while **Support Vector Regressor** was the least effective for this dataset, making it less suitable for accurate predictions.
+
+---
+
+**Reference :**
+
+[1] Hoang Nguyen et al., ["Efficient machine learning models for prediction of concrete strengths"](https://www.sciencedirect.com/science/article/pii/S095006182032955X) Construction and Building Materials, Vol. 266, Part B, 2021.
+
+[2] De-Cheng Feng et al., ["Machine learning-based compressive strength prediction for concrete: An adaptive boosting approach"](https://www.sciencedirect.com/science/article/pii/S0950061819324420) Construction and Building Materials, Vol. 230, 2020.
+
+[3] Kadir Güçlüer et al., ["A comparative investigation using machine learning methods for concrete compressive strength estimation"](https://www.sciencedirect.com/science/article/pii/S2352492821002701) Materials Today Communications, Vol. 27, 2021.
+
+[4] Hadi Salehi et al., ["Emerging artificial intelligence methods in structural engineering"](https://www.sciencedirect.com/science/article/pii/S0141029617335526) Engineering Structures, Vol. 171, 2018.
