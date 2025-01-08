@@ -166,25 +166,25 @@ It was found that the data contained outliers, these outliers need to be removed
 
 In this stage, several data preparation techniques were applied to ensure that the data is in the correct format for model training and evaluation. The data preparation steps taken are as follows:
 
-**1. Remove Duplicate Data**
+### **1. Remove Duplicate Data**
 
 During the data understanding stage, it was found that there were 25 duplicate entries, so these duplicate entries were removed.
 
-**2. Remove Outliers**
+### **2. Remove Outliers**
 
 During the data understanding stage, it was found that the data has outliers, then the outlier data is cleaned using the IQR (Interquartile Range) method.
 
 The IQR method works by calculating the first quartile (Q1) and third quartile (Q3) of the data, and identifying outliers as values that fall outside the range defined by 1.5 times the IQR below Q1 or above Q3.
 
-**3. Separate Features and Target Variable**
+### **3. Separate Features and Target Variable**
 
 After the data is clean, next step is separate the dataset into features (X) and target variable (y). This is because machine learning models require a clear distinction between input variables (features) and output variables (target).
 
-**4. Splitting the Data into Training and Testing Sets**
+### **4. Splitting the Data into Training and Testing Sets**
 
 After separating the features and target, the dataset is split into training and testing sets. This step is important to ensure that the model is trained on one portion of the data and evaluated on another portion that it has not seen before. The training set is used to train the model, while the testing set helps assess the model's performance and generalization ability. In this case, the data is split with an 80:20 ratio, meaning 80% of the data is used for training and 20% is used for testing.
 
-**5. Scaling Data**
+### **5. Scaling Data**
 
 Data scaling is applied using StandardScaler. This technique standardizes the features by removing the mean and scaling them to unit variance. Standardizing the data ensures that all features contribute equally to the model, preventing features with larger values from dominating the learning process.
 
